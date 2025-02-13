@@ -2,12 +2,14 @@
 
 ## 파일 구조
 
+```bash
 ├── main.py # 메인 실행부 (데이터 생성, 윈도우 분할, 특징 추출, 모델 학습, 평가 등)
 ├── feature_extraction.py # 특징 추출 모듈 (시간영역, 주파수영역, 웨이블릿 변환)
 ├── models.py # 모델 정의 (Autoencoder, OneClassSVM, IsolationForest)
 ├── train.py # 모델 학습 함수 정의 (Autoencoder, OneClassSVM, IsolationForest)
 ├── evaluate.py # 모델 평가 함수 정의
 └── README.md # 프로젝트 소개 및 사용 방법
+```
 
 ## 주요 기능
 
