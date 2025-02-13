@@ -113,7 +113,7 @@ def main():
     test_signal = generate_sin_wave_data(
         num_samples=20000,
         base_amplitude=0.2,
-        noise_scale=0.05,
+        noise_scale=0.01,
         random_state=84  # 시드 고정 (42와 다름)
     )
     test_windows = create_windows(test_signal, window_size=20, step_size=10)
